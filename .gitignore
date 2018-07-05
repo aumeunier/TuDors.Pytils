@@ -1,0 +1,25 @@
+env/
+venv/
+.idea/
+*.sqlite3
+*.pyc
+*~
+.settings/
+sphinx_docs/_*
+.mypy_cache/
+test_report/
+clover.xml
+coverage.xml
+.coverage
+.cache/
+htmlcov/
+.aws/
+.vscode/*
+!.vscode/settings.json
+
+# Keep only static/.gitkeep
+static/*
+!static/.gitkeep
+
+# Local logs
+*.log
